@@ -1,0 +1,180 @@
+
+.total{
+  
+  position:fixed;
+  z-index:1 ; 
+  background-color:  black;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40;
+  margin-top:0;
+  width:100%;
+  align-items: center;
+  
+}
+.left portion{
+  display:flex;
+  flex-direction: row;
+  align-items:baseline;
+ 
+
+}
+input::placeholder{
+  font-size:15px;
+  font-family:Roboto;
+  color: rgb(94, 94, 94);
+  background-color: black;
+  
+}
+.image{
+
+  margin-top: 10px;
+
+  display: inline-block;
+  
+
+}
+.menu{
+  font-family:Roboto;
+  display: inline-flex;
+
+
+}
+
+.text{
+  margin-right:20px;
+  color: rgb(94, 94, 94);
+  display: inline-block;
+  
+}
+.remaining{
+  display:inline-flex;
+  align-items:center;
+  margin-right:20px;
+   color:  rgb(94, 94, 94);
+}
+
+.rightportion{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  position: relative;
+ 
+
+}
+.login{
+  font-family:Roboto;
+  padding-left:7px;
+  padding-right:7px; 
+   margin-right:20px ;
+   border-radius: 17px; 
+   font-size: 17px;
+   height: 34px; 
+   border:1px solid white; 
+   background-color: black;
+  color: white;
+  flex:1;
+
+}
+@media (max-width:1600px)
+{ .searchbox{
+  width:700px;
+}
+ 
+  .image{
+    width:100px;
+  }
+  .image{
+    width:13vw ;
+   }
+ 
+   .text, .remaining{
+    font-size:1.3vw ;
+  }
+  
+}
+@media (max-width:1300px)
+{
+  .searchbox{
+   width: 500px;
+  
+  }
+  .text, .remaining{
+    font-size:1.5vw ;
+  }
+ 
+}
+@media (max-width:1020px)
+{
+  .searchbox{
+   width: 400px;
+
+  }
+  .image{
+    width:100px ;
+   }
+ 
+ 
+ 
+ 
+}
+@media (max-width:870px)
+{
+  
+  .menu{
+    display:none ;
+  }
+  .searchbox{
+    width: 450px;
+ 
+   }
+   
+}
+@media (max-width:670px)
+{
+  .searchbox{
+   width: 300px;
+  }
+  .menu{
+    display:none ;
+  }
+ 
+}
+@media (max-width:560px)
+{
+  .searchbox{
+    width: 200px;
+   }
+ 
+}
+.searchbox{
+  margin-right: 10px;
+  border-radius: 17.5px; 
+  flex:1;
+  height: 35px ;
+  margin-top: 10px;
+  width:39vw;
+}
+.searchsymbol{
+  font-family:Roboto;
+  color:rgb(94, 94, 94); 
+   position:absolute;
+  left:750px; 
+  top:10px
+
+}
+.searchsymbol:hover {
+  display:none;
+}
+
+.searchsymbol:active{
+  display:none;
+}
+
+
+
+
+
+
+
